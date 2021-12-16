@@ -1,0 +1,203 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(205, 121, 235, 1) 0%,
+    rgba(82, 62, 206, 1) 100%
+  );
+  min-height: 100vh;
+}
+
+.logo img {
+  max-width: 99px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 750px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Bai Jamjuree;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+h1 {
+  font-family: Chicle;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.flash {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  font-family: Bai Jamjuree;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.aboutclaire {
+  display: block;
+}
+.aboutpic {
+  width: 100%;
+  max-width: 400px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: block;
+}
+.abouttext {
+  font-family: Bai Jamjuree;
+  color: white;
+  font-size: 18px;
+  display: inline;
+  padding: 35px;
+}
+
+footer {
+  font-size: 10px;
+  font-family: Bai Jamjuree;
+  color: white;
+  text-align: center;
+}
+
+.projdesc {
+  font-family: Bai Jamjuree;
+  color: white;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: Bai Jamjuree;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+li {
+  font-family: Bai Jamjuree;
+  color: white;
+  font-size: 16px;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* carosel images. */
+.carousel__slide {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#carousel__slide1 {
+  background-image: url("https://cdn.glitch.me/c4e1b242-a8ac-4baf-8df3-6f89bed2b9e3%2FClairey.jpg?v=1638406626011");
+}
+#carousel__slide2 {
+  background-image: url("https://cdn.glitch.me/c4e1b242-a8ac-4baf-8df3-6f89bed2b9e3%2FAnkle.JPG?v=1638406618790");
+}
+#carousel__slide3 {
+  background-image: url("https://cdn.glitch.me/c4e1b242-a8ac-4baf-8df3-6f89bed2b9e3%2FAlexNesser.JPG?v=1638406607126");
+}
+#carousel__slide4 {
+  background-image: url("https://cdn.glitch.me/c4e1b242-a8ac-4baf-8df3-6f89bed2b9e3%2FSkully.JPG?v=1638406636203");
+}
+
+/* Media Queries - Desktop Styles */
+
+@media (min-width: 600px) {
+  nav a {
+    font-size: 20px;
+    padding: 18px;
+  }
+  h1 {
+    font-family: Chicle;
+    font-size: 50px;
+    line-height: 46px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .flash {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description {
+    font-family: Bai Jamjuree;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: Bai Jamjuree;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  li {
+    font-family: Bai Jamjuree;
+    color: white;
+    font-size: 18px;
+  }
+
+  img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo img {
+    max-width: 130px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+@media (min-width: 1024px) {
+  .aboutclaire {
+    display: flex;
+    align-items: center;
+  }
+
+  .aboutpic {
+    width: 400px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: inline;
+  }
+}
